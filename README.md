@@ -106,6 +106,7 @@ This enables tools like **pytest**, **black**, and **mypy**.
 ---
 
 ## 📌 Notes
+- OpenCPM original author: Dhia Neifar
 - OpenCPM is under active development.  
 - More submodules (e.g., OpenCOOD, a third module) will be integrated in future versions.  
 - Each submodule may have additional setup steps (datasets, pretrained models, etc.).  
