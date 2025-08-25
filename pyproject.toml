@@ -1,17 +1,14 @@
 [build-system]
-requires = ["setuptools>=61.0"]
+requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "mega-framework"
 version = "0.1.0"
-description = "Framework starting with OpenCDA as first submodule"
-authors = [
-  { name = "Dhia Neifar", email = "your_email@example.com" }
-]
+description = "OpenCPM: A centralized framework that simulates advesarial dataset creation of Cooperative Perception Messages."
 readme = "README.md"
-license = { text = "MIT" }
 requires-python = ">=3.8"
+authors = [{ name = "Dhia Neifar", email = "neifar@umich.edu" }]
 
 [project.optional-dependencies]
 dev = ["pytest", "black", "mypy"]
