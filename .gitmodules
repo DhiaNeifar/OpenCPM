@@ -1,0 +1,3 @@
+[submodule "OpenCDA"]
+	path = OpenCDA
+	url = https://github.com/ucla-mobility/OpenCDA.git
