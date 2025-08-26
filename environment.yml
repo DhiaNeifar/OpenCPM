@@ -2,10 +2,12 @@ name: opencpm
 channels: [conda-forge, defaults]
 dependencies:
   - python=3.8
+  - numpy=1.24.*
+  - pillow>=10,<11
+  - matplotlib>=3.5,<3.9
+  - carla=0.9.14
+  - pytest
   - pip
-  - numpy
-  - scipy
-  - matplotlib
   - pip:
       - .
       - -e ./OpenCDA
